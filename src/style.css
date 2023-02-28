@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+button {
+  background-color: rgb(253, 218, 234);
+  border-radius: 8px;
+  border: 2px solid #f87fa8;
+  width: 50%;
+}
+button:hover {
+  background-color: #bef0c0c7;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #bef0c0c7;
+}
+body {
+  background: rgba(248, 230, 234, 0.678);
+}
